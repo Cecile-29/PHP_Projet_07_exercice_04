@@ -16,12 +16,12 @@
         </div>
         <div class="offset-1 row justify-content-center bg-secondary rounded m-4">
             <form method="post" action="infos.php">
-                <p class="col-9 text-center text-light p-2 m-3">PSEUDO :<p>
-                <input class="col-9 btn btn-outline-warning rounded text-warning p-2 m-3" type="text" name="pseudonyme" id="pseudonyme"/></p></p>
-                <p class="col-9 text-center text-light p-2 m-3">MOT DE PASSE :<p>
-                <input class="col-9 btn btn-outline-warning rounded text-warning p-2 m-3" type="password" name="motDePasse" id="motDePasse"/></p></p>
+                <label for="pseudonyme" class="col-9 text-center text-light p-2 m-3">PSEUDO :<p>
+                <input class="col-9 btn btn-outline-warning rounded text-warning p-2 m-3" type="text" name="pseudonyme" id="pseudonyme" required/></p></label>
+                <label for="motDePasse" class="col-9 text-center text-light p-2 m-3">MOT DE PASSE :<p>
+                <input class="col-9 btn btn-outline-warning rounded text-warning p-2 m-3" type="password" name="motDePasse" id="motDePasse" required/></p></label>
                 <p class="text-center text-light p-2 m-3"><p>
-                <p class="col-9 text-center text-light p-2 m-3"><button type="submit" formaction="infos.php" class=" col-9 text-center text-warning btn btn-outline-light p-2 m-3" id="check" name="button">ENVOYER LES DONNÉES !</button></p>
+                <p class="col-9 text-center text-light p-2 m-3"><button type="submit" class=" col-9 text-center text-warning btn btn-outline-light p-2 m-3" id="check" name="button">ENVOYER LES DONNÉES !</button></p>
             </form>
         </div>
         
